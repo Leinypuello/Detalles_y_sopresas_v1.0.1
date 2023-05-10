@@ -1,0 +1,57 @@
+body{ 
+
+    /*color de fondo de la pagina*/
+    background-color:antiquewhite;
+    background:url(public/photo-1620223437074-594368cad589\ \(1\).jpeg);
+    background-size:cover;
+    backdrop-filter: blur(2px);
+}
+
+header{
+    display:grid; 
+    grid-template-columns: 1fr 1fr;
+    margin-left: 500px;
+    
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    color:rgba(128, 0, 0, 0.694)
+}
+ul{
+
+    list-style:none;
+    display:flex;
+    justify-content:space-evenly;
+    gap: 10px;
+    margin-top: 30px;
+}
+ul li a{
+    color:rgb(61, 20, 20);
+}
+
+.section{
+    font-family: 'Dancing Script', cursive;
+    color:maroon;
+
+}
+#ordenar{
+    color:maroon;
+    font-family: 'Poiret One', cursive;
+}
+
+#button{
+    display:block;
+    border-radius: 10px;
+    padding: 7px 12px;
+    border:#aad3a4 solid;
+    font:700 13px/18px Helvetica,arial;
+    background-color:rgb(52, 158, 52);
+    color: #edf5ec;
+    
+}
+
+#footer{
+    display:grid; 
+    grid-template-columns: 1fr;
+    margin-left: 400px;
+}
