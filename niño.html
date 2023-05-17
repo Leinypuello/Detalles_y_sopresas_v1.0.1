@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+     <!--links fuentes de google-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Instrument+Serif:ital@0;1&family=Poiret+One&display=swap" rel="stylesheet">
+ 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+     <!--link CSS-->
+ 
+     <link rel="stylesheet" href="styles.css">
+    
+    <title> Sorpresas y Detalles </title>
+</head>
+<body>
+
+
+<header>
+    <h1 onclick="location.href='2proyecto.html'"> Sorpresas y Detalles </h1>
+
+<nav> 
+
+    <ul>
+        <li> <a href="flores.html"> FLORES </a> </li>
+        <li> <a href="anchetas.html">ANCHETAS </a></li>
+        <li> <a href="regalos.html"> REGALOS </a> </li>
+    </ul>
+
+</nav>
+
+</header>
+
+<main>
+<!--SECCION 1 -->
+<section >
+    <h2 class="h2madre"> Desayuno Fiesta Niño</h2>
+
+  <div class="divmadre">
+        <img  class="imgmadre" src="https://www.dulcefruto.com/storage/producto/BWLderbLxpEhrzLy3tqqGg6IqonYGSIBibTshEw0.jpg" alt="">
+        <p class="pmadre"> Caja decorativa craft con mensaje, papel seda azul ,globo en helio 
+            felíz dia color negro ,vaso con fruta: uva, fresa y mango, canasta de crispetas, frasco 
+            con dulces, botella de yogurt, wafles con queso crema, fresa y miel syrup, tres fresas 
+            decoradas con chocolate y huevito kínder de chocolate, moño color azul, y tarjeta con 
+            mensaje personalizado.<br><br>
+            Precio: $110.000</p>
+  </div>
+    
+</section>
+
+<br>
+<h3 id="ordenar"> Datos para ordenar tu pedido </h3>
+<br>
+
+<section>
+  <div class="formu">
+<form action="enviar()" method="post" >
+
+  <label for="nombre" class="label"> Ingrese su nombre </label> <br>
+  <input type="text"  id="nombre"name="nombre" required >
+<br>
+
+  <label for="correo" class="label"> Coloque su correo </label><br>
+  <input  type="text" id="correo" name="nombre" required>
+<br>
+  <label for="contrasenia" class="label"> Ingrese su contraseña </label><br>
+  <input  type="password" id="contrasenia" name="nombre" required>
+<br>
+  <label for="fecha" class="label"> Ingrese la fecha en que desea recibir </label><br>
+  <input  type="date" id="fecha" name="nombre" required>
+<br>
+<br>
+
+  <button type="submit" id="button">Enviar</button>
+</form>
+  </div>
+</section>
+
+<!--Metodologia BEM-->
+
+<footer>
+  <p id="footer"> 
+      Creador: Leiny Puello.
+      Ubicacion: Medellin, antioquia.
+      Contacto: 3106471745.
+
+  </p>
+</footer>
+  
+</body>
+</html>

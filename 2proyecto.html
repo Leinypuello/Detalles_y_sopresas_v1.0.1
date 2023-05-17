@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -13,15 +14,20 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Instrument+Serif:ital@0;1&family=Poiret+One&display=swap" rel="stylesheet">
- 
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
      <!--link CSS-->
- 
+
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
      <link rel="stylesheet" href="styles.css">
     
     <title> Sorpresas y Detalles </title>
 </head>
 <body>
 
+<!--HEADER -->
 
 <header>
  <h1> Sorpresas y Detalles</h1>
@@ -29,9 +35,9 @@
 <nav> 
 
     <ul>
-        <li> <a href="https://www.daflores.com/images/product_big_0055.jpg"> FLORES </a> </li>
-        <li> <a href="https://www.surprisesbogota.com/wp-content/uploads/Ancheta-de-cumplea%C3%B1os-ideal.jpg">ANCHETAS </a></li>
-        <li> <a href="https://i.pinimg.com/564x/63/92/03/639203879e73152369a41719547ec390.jpg"> REGALOS </a> </li>
+        <li> <a href="flores.html"> FLORES </a> </li>
+        <li> <a href="anchetas.html">ANCHETAS </a></li>
+        <li> <a href="regalos.html"> REGALOS </a> </li>
     </ul>
 
 </nav>
@@ -39,63 +45,105 @@
 </header>
 
 <main>
+
+ <!--SECCION 1 -->
+    <section class="principal">
+        
+        <div data-aos="zoom-in" class="media">
+            <h3 class="sorpresas"> Encuentra las sorpresas 
+                <br>mas bonitas para MAMÁ</h3>
+
+            <button onclick="location.href='formulario.html'" id="buscar"  type="submit"> REGALAR AHORA</button>
+        </div>
+        
+        <img class="bouquete" src="imagenes/ramo.png" alt="">
+
+    </section>
+
+
+    <h3 id="losmaspedidos"> Los mas pedidos </h3>
+
+<!--SECCION 2 -->
  
-    <section>
-        <h2 class="section"> Sorpresas dia de la Madre </h2>
+    <section class="section" onclick="location.href='madre.html'">
+        <h2 class="h2"> Sorpresas dia de la Madre </h2>
+            <img  class="foto"src="https://www.dulcefruto.com/storage/producto/MxxZKmzETRoqu8dvWT2QJgkuwpGniPYsyMqvLb4n.jpg" alt="">
          <article>
             <h3> Dia 14 de Mayo </h3>
-            <p> Sorprende a ese ser especial enviándole esta hermosa docena de rosas rojas finamente arreglada en un florero de cristal. Este hermoso ramo de rosas rojas enmarcado por tiernas hojas y ramas verdes expresará de manera vívida tus sentimientos.</p>
+            <p> Sorprende a ese ser especial enviándole esta hermosa docena de rosas rojas 
+                finamente arreglada en un florero de cristal. Este hermoso ramo de rosas rojas 
+                enmarcado por tiernas hojas y ramas verdes expresará de manera vívida tus 
+                sentimientos.</p>
             <h4> Ancheta para madre</h4>
-            <p>Desayuno incluye 4 wraps (jamón, queso, lechuga, queso crema y salsa de la casa) y wafles. Acompañado de dos manzanas, uvas, fresas y durazno, 2 cafés instantáneos de juan Valdez premium, 2 jugos de naranja, chocolates kisses, ferrero roche x 3 unidades y cubiertos de madera. Incluye arreglo de caja mini con 9 rosas, 2 mugs, bandeja grande decorada con mantel, empaque, globo y tarjeta con mensaje personalizado.</p>
+            <p>Incluye tostadas con mermelada, mantequilla y nutella. Acompañadas de jugo de 
+               naranja, leche, fresas, uvas, manzana roja, caja de Ferrero roche (x 4 unidades) y 
+               un sobre de café instantáneo Juan Valdez Premium (se puede preparar con agua o 
+               leche), Viene base de mesa de madera con mantel de cuadros, mug con diseño para 
+               madre, globo en forma de corazón y letrero de feliz día mamá. Incluye empaque y 
+               tarjeta con mensaje personalizado.</p>
          </article>
     </section>
 
-    <section>
-        <h2 class="section"> Sorpresas dia del Padre </h2>
+<!--SECCION 3 -->
+
+    <section class="section" onclick="location.href='padre.html'">
+        <h2 class="h2"> Sorpresas dia del Padre </h2>
+        <img  class="foto"src="https://www.dulcefruto.com/storage/producto/fK0BaRvpacbvmPuGaxLhyXJ26Wva7z70WumRYZz1.jpg" alt="">
          <article>
             <h3> Dia 18 de Junio</h3>
             <h4> Desayuno para hombre</h4>
-            <p> Este desayuno incluye: Wafles con queso crema (syrup y fresa), Sándwich (pan artesanal, jamón, queso, lechuga, salsa). Acompañado de Jugo de naranja, barquillos de chocolate, chocomelos, dulces, fresas frescas y manzana. Incluye empaque decorado, globo metalizado y mensaje de personalizado.</p>
+            <p> Este desayuno incluye: Wafles con queso crema (syrup y fresa), 
+                Sándwich (pan artesanal, jamón, queso, lechuga, salsa). Acompañado de Jugo de 
+                naranja, barquillos de chocolate, chocomelos, dulces, fresas frescas y manzana.
+                 Incluye empaque decorado, globo metalizado y mensaje de personalizado.</p>
          </article>
 
     </section>
 
-    <section>
-        <h2 class="section"> Sorpresas para niños</h2>
+<!--SECCION 4 -->
+
+    <section class="section" onclick="location.href='niño.html'">
+        <h2 class="h2"> Sorpresas para niños</h2>
+        <img  class="foto"src="https://www.dulcefruto.com/storage/producto/BWLderbLxpEhrzLy3tqqGg6IqonYGSIBibTshEw0.jpg" alt="">
          <article>
             <h3> Sorprende a los mas peques de casa</h3>
             <h4> Dulce ancheta</h4>
-            <p> Caja de decorativa marcada con la palabra "feliz día" rellena de cinta rafia , con gran variedad de chocolates como: paq de M&M, SKITTLES, FERERERO ROCHE X 3 UND, KIT KAT, HUEVO KINDER, chocolatinas TWIX, MILKYWAY, SINICKERS, 4 BARRAS DE KINDER. Incluye moño y tarjeta.</p>
+            <p> Caja decorativa craft con mensaje, papel seda azul ,globo en helio felíz dia color 
+                negro ,vaso con fruta: uva, fresa y mango, canasta de crispetas, frasco con dulces, 
+                botella de yogurt, wafles con queso crema, fresa y miel syrup, tres fresas decoradas 
+                con chocolate y huevito kínder de chocolate, moño color azul, y tarjeta con mensaje 
+                personalizado.</p>
          </article>
 
 </main>
+
   <br>
   <h3 id="ordenar"> Datos para ordenar tu pedido </h3>
   <br>
 
-<form action="enviar()" method="post">
+<section>
+    <div class="formu">
+<form action="enviar()" method="post" >
 
-    <label for="nombre"> Ingrese su nombre</label>
-    <input type="text" id="nombre" name="nombre" required>
+    <label for="nombre" class="label"> Ingrese su nombre </label> <br>
+    <input type="text"  id="nombre"name="nombre" required >
 <br>
 
-    <label for="correo"> Coloque su correo</label>
-    <input type="text" id="correo" name="nombre" required>
+    <label for="correo" class="label"> Coloque su correo </label><br>
+    <input  type="text" id="correo" name="nombre" required>
 <br>
-    <label for="contrasenia"> Ingrese su contraseña</label>
-    <input type="password" id="contrasenia" name="nombre" required>
+    <label for="contrasenia" class="label"> Ingrese su contraseña </label><br>
+    <input  type="password" id="contrasenia" name="nombre" required>
 <br>
-    <label for="fecha"> Ingrese la fecha en que desea recibir</label>
-    <input type="date" id="fecha" name="nombre" required>
+    <label for="fecha" class="label"> Ingrese la fecha en que desea recibir </label><br>
+    <input  type="date" id="fecha" name="nombre" required>
 <br>
 <br>
 
     <button type="submit" id="button">Enviar</button>
-
-
 </form>
-
-<!--Metodologia BEM-->
+    </div>
+</section>
 
 <footer>
     <p id="footer"> 
@@ -105,6 +153,10 @@
 
     </p>
 </footer>
-    
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+ AOS.init();
+</script>
 </body>
 </html>
